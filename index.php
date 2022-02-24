@@ -26,6 +26,12 @@
       { if($value <= $credit){
         echo "<p>".$key."</p>";}
       }
+
+      $amount=800;
+      $taxRate=0.0825;
+      $addedTax= $amount*$taxRate;
+      echo $addedTax;
+      
     ?>
   </body>
 </html>
